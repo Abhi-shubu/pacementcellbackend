@@ -19,7 +19,7 @@ const interviewSchema = new mongoose.Schema({
     studentStatus: {
       type: String,
       
-      default: 'Pending'
+      default: 'PASS'
     }
   }]
 });
